@@ -1,0 +1,58 @@
+tickers:
+  - AAPL
+  - MSFT
+  - NVDA
+  - AMZN
+  - META
+  - JPM
+  - BAC
+  - GS
+  - MS
+  - XOM
+  - CVX
+  - JNJ
+  - PFE
+  - MRK
+  - WMT
+  - COST
+  - PG
+  - SPY
+  - QQQ
+  - IWM
+
+fx_tickers:
+  - EURUSD=X
+  - GBPUSD=X
+  - JPY=X
+  - CAD=X
+  - AUDUSD=X
+
+start_date: "2015-01-01"
+end_date: "2026-05-24"
+
+lookback: 20
+forward: 5
+signature_level: 3
+n_clusters: 5
+n_jobs: -1
+k_neighbors: 10
+n_generated_paths: 200
+generation_horizon: 120
+train_ratio: 0.6
+val_ratio: 0.2
+test_ratio: 0.2
+
+sensitivity_k_neighbors: [5, 10, 20, 50, 100]
+sensitivity_signature_levels: [2, 3]
+sensitivity_lookbacks: [20, 60]
+sensitivity_forwards: [1, 5]
+
+# Optional heavier ranges (enable by replacing sensitivity_* above):
+# sensitivity_lookbacks: [60, 120]
+# sensitivity_forwards: [5, 10, 20]
+
+raw_data_dir: "data/raw"
+processed_data_dir: "data/processed"
+cache_dir: "data/cache"
+figures_dir: "reports/figures"
+tables_dir: "reports/tables"
