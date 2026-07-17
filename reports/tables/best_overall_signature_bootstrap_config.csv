@@ -1,0 +1,2 @@
+lookback,signature_level,forward,k_neighbors,signature_mmd,volatility_error,var95_error,es95_error,drawdown_error,acf_error,normalized_signature_mmd,normalized_volatility_error,normalized_var95_error,normalized_es95_error,normalized_drawdown_error,normalized_acf_error,score,config_type
+20,3,1,10,0.0005351804047955624,0.02361367766816292,0.002413381287421255,0.0008448895805903377,0.015291041649865132,0.03256461574898756,0.12062393772288203,0.13761504002340189,0.0,0.03758282073019477,0.0,0.5270327606780006,0.8228545591544794,best_overall

@@ -10,10 +10,6 @@ data/processed/*.csv
 data/cache/**/*.npy
 data/cache/**/*.npz
 
-# Reports
-reports/figures/*.png
-reports/tables/*.csv
-
 # Environment
 .env
 venv/
